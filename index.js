@@ -17,8 +17,10 @@ const facts = [
 ];
 
 function johnLennonFacts(facts) {
-  while (facts.length < 5) {
-    facts++;
+  var excitedFacts = []
+  var i = 0
+  while (facts.length < i) {
+    i++;
     return (facts + '!!!')
   }
 }
